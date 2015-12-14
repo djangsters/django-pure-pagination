@@ -2,7 +2,7 @@ import os
 from distutils.core import setup
 from setuptools import setup, find_packages
 
-setup(name='django-pure-pagination',
+setup(name='djangsters-pure-pagination',
       version='0.2',
       author='James Pacileo',
       long_description = open('README.rst').read(),
@@ -17,7 +17,7 @@ setup(name='django-pure-pagination',
           "Environment :: Web Environment",
       ],
       author_email='jamespacileo@gmail.com',
-      url='https://github.com/jamespacileo/django-pure-pagination/',
+      url='https://github.com/djangsters/django-pure-pagination',
       packages = ['pure_pagination'],
       include_package_data=True,
       zip_safe = False,
